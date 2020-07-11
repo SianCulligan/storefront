@@ -15,6 +15,7 @@ function App() {
         <Provider store={store}>
             <div className='App'>
                 <Header />
+
                 <Categories />
                 <Products />
             </div>

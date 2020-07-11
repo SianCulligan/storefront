@@ -8,6 +8,28 @@ img {
     text-align: 'center';
   }
 
-  html {
+ html {
+     height: 100%;
       text-align: center;
-  }
+      background-image: url('https://wallpaperaccess.com/full/867429.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+ }
+
+
+
+ .App {
+     width: 80%;
+     background-color: rgba(240, 248, 255, 0.411);
+     margin-left: 10%;
+     margin-bottom: 10%;
+     padding: 3% 0;
+ }
+
+.header {
+    font-family: 'Jolly Lodger';
+    font-size: 200%;
+}
+
