@@ -1,0 +1,13 @@
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.prodWrapper {
+    padding: 5%;
+    text-align: 'center';
+  }
+
+  html {
+      text-align: center;
+  }
