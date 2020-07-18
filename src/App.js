@@ -1,23 +1,27 @@
+  
 import React from 'react';
 import { Provider } from 'react-redux';
 import store from './store';
+import './styles/styles.scss';
 
-import { Header, Categories, Products, } from './components/CompontentIndex';
+import Products from './components/storefront/Products';
+import Categories from './components/storefront/Categories';
+import Header from './components/header/Header';
+// import Footer from './components/footer/Footer';
 
-import "./styles/styles.css"
-
-// Connecting our app to our global state redux store
-// xx Wrap the whole app in a "store provider"
-// -- Pick individual components to "connect" and become "consumers"
+import { Container, CssBaseline } from '@material-ui/core';
 
 function App() {
     return (
         <Provider store={store}>
+            <CssBaseline />
             <div className='App'>
                 <Header />
-
-                <Categories />
-                <Products />
+                <Container maxWidth='sm'>
+                    <Categories />
+                    <Products />
+                </Container>
+                {/* <Footer /> */}
             </div>
         </Provider>
     );
