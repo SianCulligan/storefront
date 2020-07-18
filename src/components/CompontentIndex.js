@@ -10,3 +10,4 @@ import Footer from './Footer';
 export {
     Header, Footer, Products, Categories
 }
+
